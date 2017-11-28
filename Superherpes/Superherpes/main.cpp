@@ -11,13 +11,15 @@ private:
     int aldur;
     char ofurkraftur;
 public:
+    string ok;
     Superhero();
     Superhero(string n, int a, char o);
+    string okraftur(char o);
     friend istream& operator >> (istream& in, Superhero& superHero);
     friend ostream& operator << (ostream& out, Superhero& superHero);
 };
 int main(int argc, const char * argv[]) {
-    
+    string str;
     ofstream fout;
     Superhero superHero1;
     fout.open("Superheroes.txt", ios::app);
@@ -26,8 +28,9 @@ int main(int argc, const char * argv[]) {
     fout.close();
     ifstream fin;
     fin.open("Superheroes.txt");
-    fin >> superHero1;
-    return 0;
+    getline(fin,str);
+    cout << str << endl;
+    fin.close();
 }
 Superhero::Superhero()
 {
@@ -53,6 +56,31 @@ istream& operator >> (istream& in, Superhero& superHero)
 }
 ostream& operator << (ostream& out, Superhero& superHero)
 {
-    out << superHero.nafn << " (" << superHero.aldur << "): " << superHero.ofurkraftur << endl;
+    out << superHero.nafn << " (" << superHero.aldur << "): " << superHero.ok << endl;
     return out;
+}
+string Superhero::okraftur(char o)
+{
+    string ok;
+    if(o == 'f')
+    {
+        ok = "Flying";
+    }
+    if(o == 'g')
+    {
+        ok = "Giant";
+    }
+    if(o == 'h')
+    {
+        ok = "Hacker";
+    }
+    if(o == 'n')
+    {
+        ok = "None";
+    }
+    else
+    {
+        ok = "Weakling";
+    }
+    return ok;
 }
