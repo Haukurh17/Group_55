@@ -1,0 +1,49 @@
+# depslib dependency file v1.0
+1512395267 source:c:\users\sigth\desktop\skóli 2017\forritun\hopur_55\main.cpp
+	<iostream>
+	"MainUi.h"
+
+1512394602 source:c:\users\sigth\desktop\skóli 2017\forritun\hopur_55\src\object\pizza.cpp
+	"Pizza.h"
+
+1512394602 c:\users\sigth\desktop\skóli 2017\forritun\hopur_55\include\object\pizza.h
+
+1512485767 c:\users\sigth\desktop\skóli 2017\forritun\hopur_55\include\ui\mainui.h
+	"OrderPizzaUi.h"
+	"SolumadurUi.h"
+	"BakariUi.h"
+	"UmsjonarmadurUi.h"
+	<string>
+	<iostream>
+
+1512578782 source:c:\users\sigth\desktop\skóli 2017\forritun\hopur_55\src\mainui.cpp
+	"MainUi.h"
+
+1512410499 c:\users\sigth\desktop\skóli 2017\forritun\hopur_55\include\ui\umsjonarmadurui.h
+	"MainUi.h"
+	<string>
+
+1512677020 source:c:\users\sigth\desktop\skóli 2017\forritun\hopur_55\src\ui\umsjonarmadurui.cpp
+	"UmsjonarmadurUi.h"
+
+1512483653 source:c:\users\sigth\desktop\skóli 2017\forritun\hopur_55\src\ui\bakariui.cpp
+	"BakariUi.h"
+
+1512410403 c:\users\sigth\desktop\skóli 2017\forritun\hopur_55\include\ui\bakariui.h
+	"MainUi.h"
+	<string>
+
+1512677335 c:\users\sigth\desktop\skóli 2017\forritun\hopur_55\include\ui\solumadurui.h
+	"MainUi.h"
+	<string>
+
+1512677335 source:c:\users\sigth\desktop\skóli 2017\forritun\hopur_55\src\ui\solumadurui.cpp
+	"SolumadurUi.h"
+
+1512484972 c:\users\sigth\desktop\skóli 2017\forritun\hopur_55\include\ui\orderpizzaui.h
+	"MainUi.h"
+	"Pizza.h"
+
+1512578681 source:c:\users\sigth\desktop\skóli 2017\forritun\hopur_55\src\ui\orderpizzaui.cpp
+	"OrderPizzaUi.h"
+

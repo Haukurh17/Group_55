@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="hopur_55" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/hopur_55" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include/ui" />
+					<Add directory="include/object" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/hopur_55" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include/ui" />
+					<Add directory="include/object" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/object/Pizza.h" />
+		<Unit filename="include/ui/BakariUi.h" />
+		<Unit filename="include/ui/MainUi.h" />
+		<Unit filename="include/ui/OrderPizzaUi.h" />
+		<Unit filename="include/ui/SolumadurUi.h" />
+		<Unit filename="include/ui/UmsjonarmadurUi.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/MainUi.cpp" />
+		<Unit filename="src/object/Pizza.cpp" />
+		<Unit filename="src/ui/BakariUi.cpp" />
+		<Unit filename="src/ui/OrderPizzaUi.cpp" />
+		<Unit filename="src/ui/SolumadurUi.cpp" />
+		<Unit filename="src/ui/UmsjonarmadurUi.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
